@@ -49,7 +49,7 @@ yarn test
 
 ### Break down into end to end tests
 
-The tests are going to verify if it's possible to create, update, list and delete the repositories and if it's possible to give a like to a certain repository.
+The tests are going to verify if it's possible to give a like to a certain repository.
 
 
 ## Built With
