@@ -59,6 +59,6 @@ The tests are going to verify if it's possible to create, update, list and delet
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/twistershark/concepts-react-native/blob/master/LICENSE) file for details
 
 
