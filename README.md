@@ -1,6 +1,6 @@
-# ReactJS Concepts
+# React Native Concepts
 
-Simple React project to practice the concepts of ReactJS. The idea of this project is to access the backend developed in another challenge and to be able to create, list and delete repositories.
+Simple React Native project to practice the concepts of React Native. The idea of this project is to access the backend developed in another challenge and to be able to list and like repositories.
 
 ## Getting Started
 
@@ -8,6 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+Emulator(Android / iOS) or a device to run the app. 
 Node: version 12 or higher
 Yarn: version 1
 
@@ -17,11 +18,25 @@ After you clone this repository, enter the repository folder and run on the term
 ```
 yarn
 ```
+If you decide to use iOS emulator, you'll have to navigate to ios folder in the project, then execute the following command: 
+```
+pod install
+```
+this will install all iOS dependencies.
 
-After that, you may be able to start the server using:
+To start the app, run this command:
 
 ```
-yarn dev
+yarn react-native start
+```
+
+After that, if you are using an android emulator, you'll have to run:
+```
+yarn react-native run-android
+```
+After that, if you are using an iOS emulator, you'll have to run:
+```
+yarn react-native run-ios
 ```
 
 ## Running the tests
@@ -39,11 +54,11 @@ The tests are going to verify if it's possible to create, update, list and delet
 
 ## Built With
 
-* [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces.
+* [React Native](https://reactnative.dev/) - React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/twistershark/conceitos-nodejs/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md]() file for details
 
 
